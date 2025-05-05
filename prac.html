@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landscape Client Testimonials</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      background: #f4f6f8;
+    }
+    .testimonial-section {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .testimonial-section h2 {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #222;
+      margin-bottom: 50px;
+    }
+    .testimonial-card {
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+    .testimonial-content {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .stars {
+      color: #fbc02d;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .testimonial-text {
+      font-size: 1.05rem;
+      color: #555;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+    .client-info {
+      text-align: right;
+    }
+    .client-name {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #333;
+    }
+    .client-title {
+      font-size: 0.95rem;
+      color: #777;
+    }
+    @media (max-width: 768px) {
+      .testimonial-card {
+        flex-direction: column;
+        text-align: center;
+      }
+      .client-info {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .testimonial-content {
+        padding-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section class="testimonial-section">
+  <h2>What Our Clients Say</h2>
+
+  <div class="testimonial-card">
+    <div class="testimonial-content">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">
+        "Exceptional development services! They created a powerful ecommerce site, a clean mobile app, and complemented it with professional designs and video content. Highly recommended for full digital solutions!"
+      </p>
+    </div>
+    <div class="client-info">
+      <div class="client-name">John Doe</div>
+      <div class="client-title">CEO, Startup Co.</div>
+    </div>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="testimonial-content">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">
+        "Their full stack expertise helped bring our brand online seamlessly. From WordPress development to beautiful visuals, every piece exceeded our expectations. Super professional and very creative!"
+      </p>
+    </div>
+    <div class="client-info">
+      <div class="client-name">Sarah Johnson</div>
+      <div class="client-title">Founder, Creativa</div>
+    </div>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="testimonial-content">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">
+        "Fast, reliable, and talented! They delivered a stunning website, amazing mobile UI/UX, and video content that made our brand shine. Will definitely hire again for future projects!"
+      </p>
+    </div>
+    <div class="client-info">
+      <div class="client-name">Michael Lee</div>
+      <div class="client-title">Manager, BrightTech</div>
+    </div>
+  </div>
+
+</section>
+
+</body>
+</html>
